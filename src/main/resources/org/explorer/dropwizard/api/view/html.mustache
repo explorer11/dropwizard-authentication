@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+{{> header}}
+<body>
+<span class="item">Welcome {{name}}</span>
+<br>
+<span class="logout item">Logout</span>
+<div class="ui tiny modal" id="logoutLink-modal">
+    <i class="close icon"></i>
+    <div class="header"></div>
+    <div class="content">
+        <p></p>
+    </div>
+    <div class="actions">
+        <div class="ui deny button">No</div>
+        <div class="ui approve red right labeled icon button">
+            Yes
+            <i class="trash icon"></i>
+        </div>
+    </div>
+    <input type="hidden">
+</div>
+<script type="text/javascript" src="/static/js/nav.js"></script>
+<link href="/static/css/nav.css" rel="stylesheet" type="text/css"/>
+</body>
+</html>
