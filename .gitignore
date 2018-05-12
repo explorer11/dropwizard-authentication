@@ -1,0 +1,23 @@
+# Maven
+target/
+
+# IDEA
+.idea/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Mac OS X
+.DS_Store
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+.nb-gradle/
